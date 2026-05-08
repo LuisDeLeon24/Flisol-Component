@@ -1,5 +1,5 @@
 /**
- * Design Tokens — FLISoL UTP 2026
+ * Design Tokens — FLISoL Guatemala 2026
  * Sistema "Dark Tech Freedom"
  *
  * Fuente de verdad para clases de tipografía reutilizables.

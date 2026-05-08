@@ -231,7 +231,7 @@ function TicketGenerator() {
 
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.download = 'pase-flisol-utp-2026.png'
+    link.download = 'pase-flisol-guatemala-2026.png'
     link.href = canvasRef.current.toDataURL('image/png')
     link.click()
   }
@@ -241,7 +241,7 @@ function TicketGenerator() {
 
     alert('¡Imagen descargada! En LinkedIn, adjunta tu imagen.')
 
-    const shareText = `Este 25 de abril asistiré al FLISoL UTP 2026, un evento organizado por LEAD UTP que reúne a la comunidad tecnológica en la Universidad Tecnológica del Perú para aprender, compartir y conectar alrededor del software libre. 🚀
+    const shareText = `Este 25 de abril asistiré al FLISoL Guatemala 2026, un evento organizado por LEAD Guatemala que reúne a la comunidad tecnológica en Lima, Perú para aprender, compartir y conectar alrededor del software libre. 🚀
 
 Quiero invitarlos a ser parte de este evento pensado para estudiantes, profesionales y entusiastas de la tecnología.
 
@@ -256,16 +256,16 @@ Exploraremos diversas temáticas vinculadas al software libre y tecnologías ope
 
 ☕ Además, habrá coffee break y networking para ampliar tu red de contactos, dinámicas y sorteos.
 
-📍 UTP Torre Arequipa
+📍 Lima, Perú
 📅 Sábado 25 de abril
 🕘 9:00 a. m. – 6:00 p. m.
 🎟️ Entrada gratuita
 
 👉 Regístrate aquí: https://luma.com/0h6u3mp6
 
-Gracias a LEAD UTP por impulsar este tipo de espacios que fortalecen la comunidad tech. 🙌
+Gracias a LEAD Guatemala por impulsar este tipo de espacios que fortalecen la comunidad tech. 🙌
 
-#FLISOLUTP #LEADUTP #OpenSource #SoftwareLibre #Tecnología #InteligenciaArtificial`
+#FLISOLGuatemala #LEADGuatemala #OpenSource #SoftwareLibre #Tecnología #InteligenciaArtificial`
     const linkedinUrl = `https://www.linkedin.com/feed/?shareActive=true&text=${encodeURIComponent(shareText)}`
     window.open(linkedinUrl, '_blank')
   }
@@ -284,7 +284,7 @@ Gracias a LEAD UTP por impulsar este tipo de espacios que fortalecen la comunida
             <div className="space-y-4">
               <h2 className={typography.sectionTitle}>
                 Genera tu pase a <br />
-                <span className="text-flisol-orange">FLISoL UTP 2026</span>
+                <span className="text-flisol-orange">FLISoL Guatemala 2026</span>
               </h2>
               <p className="text-zinc-400 text-base max-w-md">
                 Sube tu foto, personaliza tu entrada y compártela en tus redes sociales para que todos sepan que serás parte del evento.
